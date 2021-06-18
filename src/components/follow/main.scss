@@ -1,0 +1,51 @@
+.follow {
+
+    .follow-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .follow-icon {
+        display: flex;
+        margin-top: 35px;
+        .follow-link {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media only  screen and (max-width:576px) {
+
+
+    .follow {
+
+        .follow-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 108.5%;
+            letter-spacing: 0.105em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    
+        .follow-icon {
+            display: flex;
+            margin-top: 35px;
+            .follow-icons {
+                width: 25px;
+                  height: 25px;
+            }
+            .follow-link {
+                margin-right: 10px;
+            }
+        }
+    }
+    
+
+}

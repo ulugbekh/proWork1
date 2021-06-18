@@ -1,0 +1,28 @@
+.main-block {
+    background-image: url('../images/background/main-block.svg'), url('../images/background/oq-right.svg');
+    background-repeat: no-repeat;
+    background-size: 1200px, 1000px, 400px;
+    background-position: 300px 70px, right top;
+    height: 100vh;
+}
+
+
+
+
+
+
+@media only  screen and (max-width:576px) {
+
+    .main-block {
+        background-image: url('../images/icon/mobi-main-section1.svg'), url('../images/background/section1-mobi.svg');
+        background-repeat: no-repeat;
+        background-size: 380px, contain;
+        background-position: 97px 80px, 0 200px;
+        // display: none;
+        // height: 100vh;
+    }
+
+    
+
+   
+}

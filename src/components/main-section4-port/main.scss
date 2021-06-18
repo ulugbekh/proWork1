@@ -1,0 +1,40 @@
+.partfolio {
+    margin: 20px;
+    .portfolio-img {
+        max-width: 400px !important;
+        max-height: 300px !important;
+    }
+
+    .portfolio-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+}
+
+.main-section4-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 600px;
+    overflow-y: scroll;
+   margin-top: 100px;
+}
+
+.main-section4 {
+    margin-top: 60px;
+}
+
+@media only  screen and (max-width:576px) {
+    .main-section4 {
+        margin-top: 230px;
+    }
+
+}
+

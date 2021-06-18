@@ -1,0 +1,36 @@
+.boxLink {
+    max-width: 250px;
+    height: 124px;
+    padding: 30px 20px;
+    border: 1px solid #fff;
+    display: block;
+    .box-link-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        text-align: center;
+
+    }
+
+    .box-link-miniText {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    &.active {
+        background: #fff;
+        .box-link-text {
+            color: black;
+        }
+        .box-link-miniText {
+            color: black;
+        }
+    }
+}

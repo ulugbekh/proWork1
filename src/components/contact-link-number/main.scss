@@ -1,0 +1,27 @@
+.contact-link {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+   
+    .contact-link-img {
+        margin-right: 15px;
+    }
+
+    .contact-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+        transition: all ease 0.5s;
+
+    }
+
+    &:hover {
+        .contact-link {
+            color: orange;
+        }
+    }
+}

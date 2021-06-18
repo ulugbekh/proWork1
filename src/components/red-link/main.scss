@@ -1,0 +1,121 @@
+.red-link {
+
+    background: #FB1B3D;
+    box-shadow: -15px -15px 20px rgba(0, 0, 0, 0.8);
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+
+    
+    .red-links {
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 132.4%;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        padding-top: 40%;
+        margin-top: 0 !important;
+    }
+
+    .arrow {
+        position: relative;
+
+        .arrow-item {
+            background: #fff;
+            height: 1px;
+            display: block;
+            position: absolute;
+            margin: auto;
+        }
+
+        .spane1 {
+            width: 102px;
+            left: 0;
+            right: 0;
+            
+            top: 10px;
+        }
+
+        .spane2 {
+            width: 10px;
+            right: 33px;
+            transform: rotate(30deg );
+            top: 8px;
+        }
+
+        .spane3 {
+            width: 10px;
+            right: 34px;
+            transform: rotate(-30deg);
+            top: 13px;
+        }
+    }
+}
+
+@media only  screen and (max-width:576px) {
+
+    .red-link {
+
+        background: #FB1B3D;
+        box-shadow: -15px -15px 20px rgba(0, 0, 0, 0.8);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+    
+        
+        .red-links {
+    
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 132.4%;
+            text-align: center;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            padding-top: 40%;
+            margin-top: 0 !important;
+        }
+    
+        .arrow {
+            position: relative;
+    
+            .arrow-item {
+                background: #fff;
+                height: 1px;
+                display: block;
+                position: absolute;
+                margin: auto;
+            }
+    
+            .spane1 {
+                width: 102px;
+                left: 0;
+                right: 0;
+                
+                top: 10px;
+            }
+    
+            .spane2 {
+                width: 10px;
+                right: 33px;
+                transform: rotate(30deg );
+                top: 8px;
+            }
+    
+            .spane3 {
+                width: 10px;
+                right: 34px;
+                transform: rotate(-30deg);
+                top: 13px;
+            }
+        }
+    }
+
+}

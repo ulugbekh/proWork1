@@ -1,0 +1,223 @@
+.section1-main {
+    
+    padding-top: 100px;
+    .text1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .section1-main-BigText {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 120px;
+        line-height: 108.5%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 50px;
+
+        .big-text-span {
+            display: block;
+        }
+    }
+
+    
+}
+
+.about-section1-block {
+    position: relative;
+    bottom: 200px;
+}
+
+.main-section1-text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 108.5%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.main-section1-block {
+    
+    margin-top: 100px;
+    .main-section1-top {
+        display: flex;
+        justify-content: space-between;
+        .main-section1-block-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 130%;
+            letter-spacing: 0.105em;
+            font-feature-settings: 'case' on;
+            color: #FFFFFF;
+            max-width: 750px;
+
+        }
+    }
+}
+
+.main-section1-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    
+    li {
+        button {
+            
+        }
+        width: 30px !important;
+        height: 2px !important;
+        background-color: #FFFFFF !important;
+
+        &.slick-active {
+            background-color: red !important;
+        }
+    }
+}
+
+.main-section2-text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 108.5%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.main-section2-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-section2-blocks {
+        width: 140px;
+        border: 1px solid #fff;
+        margin: 0 30px;
+    }
+}
+
+.main-section2-miniText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 108.5%;
+    text-align: center;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.star-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .star-item {
+        margin: 0 10px;
+    }
+}
+
+.main-section1-mobi {
+    display: none;
+}
+
+@media only  screen and (max-width:576px) {
+
+    .main-section1 {
+        display: none;
+    }
+    .main-section1-mobi {
+        display: block;
+    }
+    
+    .section1-main .text1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        padding-top: 170px;
+        max-width: 300px;
+    }
+
+    .section1-main .section1-main-BigText {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 108.5%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-top: 50px;
+
+    }
+
+    .red-link {
+        background: #FB1B3D;
+        box-shadow: -15px -15px 20px rgb(0 0 0 / 80%);
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 50px;
+    }
+    
+
+    .main-section1-text {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 108.5%;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .main-section1-block .main-section1-top {
+        display: block;
+    }
+
+    .main-section1-block {
+        margin-top: 50px;
+    }
+
+    .scrooldown-block {
+        display: flex;
+        align-items: center;
+        transform: rotate(
+    -90deg
+    );
+        position: fixed;
+        right: 10px;
+        display: none;
+    }
+
+    .main-section1-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    
+   
+}

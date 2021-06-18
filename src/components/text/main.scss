@@ -1,0 +1,25 @@
+.scrooldown-block {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    position: fixed;
+    right: 10px;
+    
+    .scrool-arrow {
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        margin-right: 30px;
+    }
+
+    .scrool-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 132.4%;
+        color: #F2F2F2;
+        width: 140px;
+        
+
+    }
+}

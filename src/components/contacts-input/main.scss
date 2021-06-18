@@ -1,0 +1,72 @@
+.contact-input {
+    width: 400px;
+    display: block;
+    height: 50px;
+    .legend {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+
+
+    }
+
+    .contact-input {
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+
+        &::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 108.5%;
+            letter-spacing: 0.105em;
+            color: #535353;
+        }
+
+    }
+}
+
+
+
+.contact-textarea {
+    max-width: 400px;
+    
+    
+    .legend {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+
+
+    }
+
+
+    .textarea {
+       
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+        height: 150px;
+    }
+}

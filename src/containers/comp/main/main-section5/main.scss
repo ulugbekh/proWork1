@@ -1,0 +1,112 @@
+
+
+.main-section5 {
+    margin-top: 100px;
+    padding-top: 100px;
+    .main-section5-textarea {
+        margin-top: 100px;
+    }
+    
+    .contact-usText {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    .contact-miniText {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+        margin-top: 18px;
+    }
+    
+    .main-section5-inner {
+        display: flex;
+        justify-content: space-between;
+    
+        // align-items: center;
+        .contact-input-block {
+            margin-top: 32px;
+            padding-top: 32px;
+        }
+    
+    }
+    
+    .contact-lerightft-bottom {
+        // display: flex;
+        margin-top: 30px;
+    
+        .contact-lerightft-bottom-top {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .contact-lerightft-bottom-inner {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+    
+            .white-box {
+                margin-right: 20px;
+            }
+        }
+    }
+    
+    
+    .contacts-left-right {
+        margin-top: 32px;
+        padding-top: 32px;
+    }
+    
+    .contact-btn {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 108.5%;
+        text-align: center;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+        padding: 16px 67px;
+        margin-top: 20px;
+        cursor: pointer;
+        background: #FB1B3D;
+        border: none;
+    }
+
+
+}
+
+.scrool-down-section5 {
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+@media only screen and (max-width:576px) {
+
+    .main-section5 {
+
+        .left-text-block .left-text {
+            display: none;
+        }
+
+        .main-section5-inner {
+            display: block;
+        }
+    }
+
+    .contacts-left-right {
+        margin-top: 0;
+        padding-top: 32px;
+    }
+
+    
+}

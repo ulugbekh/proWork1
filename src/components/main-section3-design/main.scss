@@ -1,0 +1,30 @@
+.design-block {
+
+
+    .design-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 108.5%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        z-index: 12;
+        margin-left: 150px;
+        position: relative;
+        margin-top: 250px;
+    }
+
+    .design-mini-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 169%;
+        letter-spacing: 0.105em;
+        font-feature-settings: 'case' on;
+        color: #FFFFFF;
+        max-width: 600px;
+        margin-top: 50px;
+    }
+
+}

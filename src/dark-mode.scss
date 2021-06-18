@@ -1,0 +1,142 @@
+body.active {
+    background: white;
+    
+    .section1-main .text1 {
+        color: #000;
+    }
+
+    .section1-main .section1-main-BigText {
+        color: #000;
+    }
+
+    .main-section1-text {
+        color: #000;
+    }
+
+    .main-section1-block .main-section1-top .main-section1-block-text {
+        color: #000;
+    }
+
+    .follow .follow-text {
+        color: #FFFFFF;
+    }
+
+    .scrooldown-block .scrool-text {
+        color: #000;
+    }
+
+    .main-section2-text {
+        color: #000;
+    }
+
+    .main-section2-block .main-section2-blocks {
+        border: 1px solid #000;
+    }
+
+    .main-section2-miniText {
+        color: #000;
+    }
+
+    .array-card {
+        border: 1px solid #000;
+    }
+
+    .array-card .card-text {
+        color: #000;
+    }
+
+    .header-block {
+        background: white;
+    }
+
+    .header-block .header .header-right .link-item {
+        color: yellow;
+    }
+
+    .array-card .card-top .card-date {
+        color: #000;
+    }
+
+    .design-block .design-text {
+        color: black;
+    }
+
+    .design-block .design-mini-text {
+        color: #000;
+    }
+
+    .mobi-text {
+        color: #000;
+        display: none;
+    }
+
+    .left-text-block .left-text {
+        color: #000;
+    }
+
+    .contact-link .contact-link {
+        color: #000;
+    }
+
+    .boxLink .box-link-text {
+        color: #000;
+    }
+
+    .boxLink .box-link-miniText {
+        color: #000;
+    }
+
+    .header-block .header .header-right .link-item {
+        color: #000;
+    }
+
+    .boxLink.active .box-link-text {
+        color: white;
+    }
+
+    .boxLink.active .box-link-miniText {
+        color: white;
+    }
+
+
+    .array-card {
+        border: 1px solid black;
+    }
+    .contact-input .contact-input {
+        color: #000;
+    }
+    .contact-textarea .textarea {
+        color: #000;
+    }
+    .main-MainSection3 .left-btn .main-section3-btn {
+        color: #000;
+        &.active {
+            color: #fff;
+            background-color: rgb(161, 161, 150);
+        }
+    }
+    .main-block {
+        background-image: url('./images/background/white-fon.svg');
+        background-repeat: no-repeat;
+        background-size: 1100px, ;
+        background-position: 330px 70px;
+        height: 100vh;
+    }
+    .contact-input .legend {
+        color: #000;
+    }
+    .contact-textarea .legend {
+        color: #000;
+    }
+    .boxLink {
+        border: 1px solid #000;
+        display: block;
+
+        &.active {
+            color: #fff;
+            background: #000;
+        }
+    }
+    
+    
+}

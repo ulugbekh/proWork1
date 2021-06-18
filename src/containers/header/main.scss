@@ -1,0 +1,106 @@
+.header-block {
+
+    background-image: url('../../images/background/oq-top.svg');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center -100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: black;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 26px 0;
+    
+       .header-right {
+
+        .dark-modes {
+            margin-right: 30px;
+        }
+    
+        display: flex;
+        align-items: center;
+        .select {
+            border: none;
+            background: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 132.4%;
+            color: #FFFFFF;
+            outline: none;
+            margin-right: 24px;
+        }
+    
+        .link-item {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 132.4%;
+            color: #FFFFFF;
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            padding: 5px 15px;
+            transition: all ease 0.5s;
+
+            &:hover {
+                color: orange;
+            }
+
+            &.active {
+                background: white;
+                color: black;
+            }
+        }
+    
+        .numbers {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 132.4%;
+            color: #FFFFFF;
+            text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+            transform: rotate(-0.15deg);
+            margin-right: 45px;
+        }
+    
+        .started {
+            
+            .started-item {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 132.4%;
+                text-align: center;
+                color: #FFFFFF;
+                padding-right: 25px;
+                position: relative;
+    
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: -15px;
+                    bottom: 0;
+                    background-image: url('../../images/icon/red.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 33px;
+                    height: 33px;
+                    margin: auto;
+                }
+            }
+        }
+       }
+    }
+}
+
+@media only  screen and (max-width:576px) {
+
+    .header-block {
+        display: none;
+    }
+     
+ }
